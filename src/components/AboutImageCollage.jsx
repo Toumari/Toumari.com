@@ -12,8 +12,10 @@ export default function AboutImageCollage() {
         <div className="about_me__text">
           <p>
             I am a hobbyist full stack web developer with a background in
-            photography and graphic design. I have a passion for creating
-            beautiful and functional websites. I am a self-taught developer.
+            Quality Assurance & Infrastructure Maintenance. I have a passion for
+            creating beautiful and functional websites & applications. I am a
+            self-taught developer who is always looking to learn new things and
+            improve my skills.
           </p>
         </div>
       </div>
