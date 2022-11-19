@@ -6,11 +6,12 @@
     .top-nav {
         position: fixed;
         display: flex;
+        flex-wrap: nowrap;
         align-items: center;
         top: 0;
         left:0;
         width: 100%;
-        width: 45vw;
+        width: 100vw;
         height: 80px;
         z-index: 100;
     
@@ -23,7 +24,7 @@
         font-size: 1em;
         color: #fff;
         text-decoration: none;
-        margin-right: 4rem;
+        margin-right: 3rem;
     }
     
     .top-nav__logo:hover {
