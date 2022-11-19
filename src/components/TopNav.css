@@ -21,10 +21,10 @@
     }
     
     .top-nav__logo {
-        font-size: 1em;
+        font-size: 2rem;
         color: #fff;
         text-decoration: none;
-        margin-right: 3rem;
+        margin-right: 1.25rem;
     }
     
     .top-nav__logo:hover {

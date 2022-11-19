@@ -4,7 +4,9 @@ export default function TopNav() {
   return (
     <div className="top-nav">
       <div className="top-nav__logo">
-        <h1>Toumari.com</h1>
+        <Link to="/">
+          <h1 className="top-nav__logo">Toumari.com</h1>
+        </Link>
       </div>
       <div className="top-nav__links">
         <Link className="top-nav__link" to={"/"}>
