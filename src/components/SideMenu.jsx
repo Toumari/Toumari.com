@@ -27,9 +27,9 @@ export default function SideMenu(props) {
       <Link onClick={closeSideMenu} className="side-menu__item" to={"/about"}>
         About
       </Link>
-      <Link onClick={closeSideMenu} className="side-menu__item" to={"/contact"}>
+      {/* <Link onClick={closeSideMenu} className="side-menu__item" to={"/contact"}>
         Contact
-      </Link>
+      </Link> */}
     </div>
   );
 }

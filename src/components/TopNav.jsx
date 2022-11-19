@@ -18,9 +18,6 @@ export default function TopNav() {
         <Link className="top-nav__link" to={"/about"}>
           About Me
         </Link>
-        <Link className="top-nav__link" to={"/contact"}>
-          Contact
-        </Link>
       </div>
     </div>
   );

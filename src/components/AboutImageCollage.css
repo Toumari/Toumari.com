@@ -1,28 +1,79 @@
-.about-image-collage {
-    max-width: 100vw;
-    background-color: #191919;
+.about__me {
+    min-height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 6rem;
+    overflow: scroll;
+    background: #141e30;
+    background: -webkit-linear-gradient(to right, #141e30, #243b55);
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    font-size: 1.15rem;
+    border: none; 
 }
 
-.about-img {
-    z-index: 0;
-    height: 50vh;
-    width: 100%;
-    color: #fff;
-    display: grid;
-    place-items: center;
+.about_me__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about_me__subtitle {
+    font-size: 1.25rem;
     text-align: center;
-    background: rgba(0,0,0,0.6) url('../assets/collage.png');
-    background-blend-mode: darken;
-    background-size: cover;
-    background-position: center ;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
+    width: 80%;
+    font-weight: 300;
+    margin-top: -2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.about_me__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.profile__img {
+    max-width: 300px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+}
+
+.about_me__text {
+    width: 80%;
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 900px) {
-    .about-image-collage {
-        height: 50vh;
-        width: 100vw;
+    .profile__img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .about_me__subtitle {
+        margin-bottom: 2.5rem;
+    }
+
+    .about_me__text {
+        width: 30%;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 1.15rem;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 2rem;
     }
 }
