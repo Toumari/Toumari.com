@@ -1,0 +1,28 @@
+.about-image-collage {
+    max-width: 100vw;
+    background-color: #191919;
+}
+
+.about-img {
+    z-index: 0;
+    height: 50vh;
+    width: 100%;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: rgba(0,0,0,0.6) url('../assets/collage.png');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 900px) {
+    .about-image-collage {
+        height: 50vh;
+        width: 100vw;
+    }
+}
